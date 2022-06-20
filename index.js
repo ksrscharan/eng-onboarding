@@ -1,4 +1,4 @@
-function fibonacci(number) {
+function printFibonacciNumbers(number) {
     let arr = [];
     let n1 = 0, n2 = 1, nextTerm;
 
@@ -8,10 +8,10 @@ function fibonacci(number) {
         n1 = n2;
         n2 = nextTerm;
     }
-    
+
     return arr;
 }
 
 const number = parseInt(prompt("enter number of terms"));
 
-fibonacci(number);
+printFibonacciNumbers(number);
